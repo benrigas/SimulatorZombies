@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21F930A016F5106B0091C1DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F9309F16F5106B0091C1DB /* Cocoa.framework */; };
+		21F930AA16F5106B0091C1DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21F930A816F5106B0091C1DB /* InfoPlist.strings */; };
+		21F930AC16F5106B0091C1DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F930AB16F5106B0091C1DB /* main.m */; };
+		21F930B016F5106B0091C1DB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 21F930AE16F5106B0091C1DB /* Credits.rtf */; };
+		21F930B316F5106B0091C1DB /* WWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F930B216F5106B0091C1DB /* WWAppDelegate.m */; };
+		21F930B616F5106C0091C1DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F930B416F5106C0091C1DB /* MainMenu.xib */; };
+		21F930BE16F5106C0091C1DB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F930BD16F5106C0091C1DB /* SenTestingKit.framework */; };
+		21F930BF16F5106C0091C1DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F9309F16F5106B0091C1DB /* Cocoa.framework */; };
+		21F930C716F5106C0091C1DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21F930C516F5106C0091C1DB /* InfoPlist.strings */; };
+		21F930CA16F5106C0091C1DB /* SimulatorZombiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F930C916F5106C0091C1DB /* SimulatorZombiesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21F930C016F5106C0091C1DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F9309416F5106B0091C1DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F9309B16F5106B0091C1DB;
+			remoteInfo = SimulatorZombies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21F9309C16F5106B0091C1DB /* SimulatorZombies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulatorZombies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F9309F16F5106B0091C1DB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		21F930A216F5106B0091C1DB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		21F930A316F5106B0091C1DB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		21F930A416F5106B0091C1DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21F930A716F5106B0091C1DB /* SimulatorZombies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimulatorZombies-Info.plist"; sourceTree = "<group>"; };
+		21F930A916F5106B0091C1DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21F930AB16F5106B0091C1DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21F930AD16F5106B0091C1DB /* SimulatorZombies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimulatorZombies-Prefix.pch"; sourceTree = "<group>"; };
+		21F930AF16F5106B0091C1DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		21F930B116F5106B0091C1DB /* WWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWAppDelegate.h; sourceTree = "<group>"; };
+		21F930B216F5106B0091C1DB /* WWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWAppDelegate.m; sourceTree = "<group>"; };
+		21F930B516F5106C0091C1DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		21F930BC16F5106C0091C1DB /* SimulatorZombiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulatorZombiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F930BD16F5106C0091C1DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		21F930C416F5106C0091C1DB /* SimulatorZombiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimulatorZombiesTests-Info.plist"; sourceTree = "<group>"; };
+		21F930C616F5106C0091C1DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21F930C816F5106C0091C1DB /* SimulatorZombiesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimulatorZombiesTests.h; sourceTree = "<group>"; };
+		21F930C916F5106C0091C1DB /* SimulatorZombiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimulatorZombiesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F9309916F5106B0091C1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F930A016F5106B0091C1DB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F930B816F5106C0091C1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F930BE16F5106C0091C1DB /* SenTestingKit.framework in Frameworks */,
+				21F930BF16F5106C0091C1DB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F9309316F5106B0091C1DB = {
+			isa = PBXGroup;
+			children = (
+				21F930A516F5106B0091C1DB /* SimulatorZombies */,
+				21F930C216F5106C0091C1DB /* SimulatorZombiesTests */,
+				21F9309E16F5106B0091C1DB /* Frameworks */,
+				21F9309D16F5106B0091C1DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21F9309D16F5106B0091C1DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F9309C16F5106B0091C1DB /* SimulatorZombies.app */,
+				21F930BC16F5106C0091C1DB /* SimulatorZombiesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F9309E16F5106B0091C1DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21F9309F16F5106B0091C1DB /* Cocoa.framework */,
+				21F930BD16F5106C0091C1DB /* SenTestingKit.framework */,
+				21F930A116F5106B0091C1DB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21F930A116F5106B0091C1DB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21F930A216F5106B0091C1DB /* AppKit.framework */,
+				21F930A316F5106B0091C1DB /* CoreData.framework */,
+				21F930A416F5106B0091C1DB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		21F930A516F5106B0091C1DB /* SimulatorZombies */ = {
+			isa = PBXGroup;
+			children = (
+				21F930B116F5106B0091C1DB /* WWAppDelegate.h */,
+				21F930B216F5106B0091C1DB /* WWAppDelegate.m */,
+				21F930B416F5106C0091C1DB /* MainMenu.xib */,
+				21F930A616F5106B0091C1DB /* Supporting Files */,
+			);
+			path = SimulatorZombies;
+			sourceTree = "<group>";
+		};
+		21F930A616F5106B0091C1DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F930A716F5106B0091C1DB /* SimulatorZombies-Info.plist */,
+				21F930A816F5106B0091C1DB /* InfoPlist.strings */,
+				21F930AB16F5106B0091C1DB /* main.m */,
+				21F930AD16F5106B0091C1DB /* SimulatorZombies-Prefix.pch */,
+				21F930AE16F5106B0091C1DB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21F930C216F5106C0091C1DB /* SimulatorZombiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				21F930C816F5106C0091C1DB /* SimulatorZombiesTests.h */,
+				21F930C916F5106C0091C1DB /* SimulatorZombiesTests.m */,
+				21F930C316F5106C0091C1DB /* Supporting Files */,
+			);
+			path = SimulatorZombiesTests;
+			sourceTree = "<group>";
+		};
+		21F930C316F5106C0091C1DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F930C416F5106C0091C1DB /* SimulatorZombiesTests-Info.plist */,
+				21F930C516F5106C0091C1DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F9309B16F5106B0091C1DB /* SimulatorZombies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F930CD16F5106C0091C1DB /* Build configuration list for PBXNativeTarget "SimulatorZombies" */;
+			buildPhases = (
+				21F9309816F5106B0091C1DB /* Sources */,
+				21F9309916F5106B0091C1DB /* Frameworks */,
+				21F9309A16F5106B0091C1DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimulatorZombies;
+			productName = SimulatorZombies;
+			productReference = 21F9309C16F5106B0091C1DB /* SimulatorZombies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21F930BB16F5106C0091C1DB /* SimulatorZombiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F930D016F5106C0091C1DB /* Build configuration list for PBXNativeTarget "SimulatorZombiesTests" */;
+			buildPhases = (
+				21F930B716F5106C0091C1DB /* Sources */,
+				21F930B816F5106C0091C1DB /* Frameworks */,
+				21F930B916F5106C0091C1DB /* Resources */,
+				21F930BA16F5106C0091C1DB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F930C116F5106C0091C1DB /* PBXTargetDependency */,
+			);
+			name = SimulatorZombiesTests;
+			productName = SimulatorZombiesTests;
+			productReference = 21F930BC16F5106C0091C1DB /* SimulatorZombiesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F9309416F5106B0091C1DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Wakkle Works";
+			};
+			buildConfigurationList = 21F9309716F5106B0091C1DB /* Build configuration list for PBXProject "SimulatorZombies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21F9309316F5106B0091C1DB;
+			productRefGroup = 21F9309D16F5106B0091C1DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F9309B16F5106B0091C1DB /* SimulatorZombies */,
+				21F930BB16F5106C0091C1DB /* SimulatorZombiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F9309A16F5106B0091C1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F930AA16F5106B0091C1DB /* InfoPlist.strings in Resources */,
+				21F930B016F5106B0091C1DB /* Credits.rtf in Resources */,
+				21F930B616F5106C0091C1DB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F930B916F5106C0091C1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F930C716F5106C0091C1DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21F930BA16F5106C0091C1DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F9309816F5106B0091C1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F930AC16F5106B0091C1DB /* main.m in Sources */,
+				21F930B316F5106B0091C1DB /* WWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F930B716F5106C0091C1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F930CA16F5106C0091C1DB /* SimulatorZombiesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21F930C116F5106C0091C1DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F9309B16F5106B0091C1DB /* SimulatorZombies */;
+			targetProxy = 21F930C016F5106C0091C1DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21F930A816F5106B0091C1DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F930A916F5106B0091C1DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21F930AE16F5106B0091C1DB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F930AF16F5106B0091C1DB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		21F930B416F5106C0091C1DB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F930B516F5106C0091C1DB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		21F930C516F5106C0091C1DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F930C616F5106C0091C1DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21F930CB16F5106C0091C1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		21F930CC16F5106C0091C1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21F930CE16F5106C0091C1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimulatorZombies/SimulatorZombies-Prefix.pch";
+				INFOPLIST_FILE = "SimulatorZombies/SimulatorZombies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21F930CF16F5106C0091C1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimulatorZombies/SimulatorZombies-Prefix.pch";
+				INFOPLIST_FILE = "SimulatorZombies/SimulatorZombies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		21F930D116F5106C0091C1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimulatorZombies.app/Contents/MacOS/SimulatorZombies";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimulatorZombies/SimulatorZombies-Prefix.pch";
+				INFOPLIST_FILE = "SimulatorZombiesTests/SimulatorZombiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		21F930D216F5106C0091C1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimulatorZombies.app/Contents/MacOS/SimulatorZombies";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimulatorZombies/SimulatorZombies-Prefix.pch";
+				INFOPLIST_FILE = "SimulatorZombiesTests/SimulatorZombiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F9309716F5106B0091C1DB /* Build configuration list for PBXProject "SimulatorZombies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F930CB16F5106C0091C1DB /* Debug */,
+				21F930CC16F5106C0091C1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F930CD16F5106C0091C1DB /* Build configuration list for PBXNativeTarget "SimulatorZombies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F930CE16F5106C0091C1DB /* Debug */,
+				21F930CF16F5106C0091C1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21F930D016F5106C0091C1DB /* Build configuration list for PBXNativeTarget "SimulatorZombiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F930D116F5106C0091C1DB /* Debug */,
+				21F930D216F5106C0091C1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21F9309416F5106B0091C1DB /* Project object */;
+}
