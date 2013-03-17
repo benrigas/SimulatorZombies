@@ -29,6 +29,7 @@
     [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
     
     self.shareButton.image = [NSImage imageNamed:NSImageNameShareTemplate];
+    [self.shareButton sendActionOn:NSLeftMouseDownMask];
 }
 
 - (void) timerTick:(NSTimer*)timer {
@@ -157,7 +158,7 @@
 
 - (IBAction)shareButtonClicked:(id)sender {
     
-    NSString* message = [NSString stringWithFormat:@"I've got %ld zombies, only %ld more before..mm..mmrrrrrr.....mmmrrrrrr, reboot! #xcode #zombies", currentZombieCount, currentMaximumProcessSetting - currentAllProcessCount];
+    NSString* message = [NSString stringWithFormat:@"I've got %ld zombies, only %ld more before I get to reboot! #xcode #zombies https://github.com/benrigas/SimulatorZombies", currentZombieCount, currentMaximumProcessSetting - currentAllProcessCount];
     
     NSArray* items = @[message];
     NSSharingServicePicker *sharingServicePicker = [[NSSharingServicePicker alloc] initWithItems:items];
