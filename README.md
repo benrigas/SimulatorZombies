@@ -14,3 +14,5 @@ This app requires Mountain Lion and Xcode 4.5+, mostly because that's the only c
 I've chosen to distribute this as source only, because if you're not writing code all day in Xcode then you probably don't give a care about this app.
 
 I'd love a cool icon for the app, or any other code contributions. Email ben@rigas.net if you like it!
+
+![](https://github.com/benrigas/SimulatorZombies/blob/master/screenshot.png?raw=true)
