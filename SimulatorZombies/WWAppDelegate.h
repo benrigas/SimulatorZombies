@@ -8,8 +8,20 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface WWAppDelegate : NSObject <NSApplicationDelegate>
+@interface WWAppDelegate : NSObject <NSApplicationDelegate, NSSharingServicePickerDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+
+@property (weak) IBOutlet NSLevelIndicator *levelIndicator;
+
+@property (weak) IBOutlet NSView *zombieCountBackgroundView;
+@property (weak) IBOutlet NSTextField *zombieCountLabel;
+@property (weak) IBOutlet NSTextField *totalProcessCountLabel;
+@property (weak) IBOutlet NSTextField *maximumProcessUserSettingLabel;
+@property (weak) IBOutlet NSButton *notifyCheckBox;
+- (IBAction)notifyButtonValueChanged:(id)sender;
+@property (weak) IBOutlet NSButton *shareButton;
+
+- (IBAction)shareButtonClicked:(id)sender;
 
 @end

@@ -17,6 +17,7 @@
 		21F930BF16F5106C0091C1DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F9309F16F5106B0091C1DB /* Cocoa.framework */; };
 		21F930C716F5106C0091C1DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21F930C516F5106C0091C1DB /* InfoPlist.strings */; };
 		21F930CA16F5106C0091C1DB /* SimulatorZombiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F930C916F5106C0091C1DB /* SimulatorZombiesTests.m */; };
+		21F930D416F5471D0091C1DB /* Zombie Moan-SoundBible.com-565291980.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21F930D316F5471D0091C1DB /* Zombie Moan-SoundBible.com-565291980.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		21F930C616F5106C0091C1DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21F930C816F5106C0091C1DB /* SimulatorZombiesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimulatorZombiesTests.h; sourceTree = "<group>"; };
 		21F930C916F5106C0091C1DB /* SimulatorZombiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimulatorZombiesTests.m; sourceTree = "<group>"; };
+		21F930D316F5471D0091C1DB /* Zombie Moan-SoundBible.com-565291980.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zombie Moan-SoundBible.com-565291980.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				21F930B116F5106B0091C1DB /* WWAppDelegate.h */,
 				21F930B216F5106B0091C1DB /* WWAppDelegate.m */,
 				21F930B416F5106C0091C1DB /* MainMenu.xib */,
+				21F930D316F5471D0091C1DB /* Zombie Moan-SoundBible.com-565291980.mp3 */,
 				21F930A616F5106B0091C1DB /* Supporting Files */,
 			);
 			path = SimulatorZombies;
@@ -228,6 +231,7 @@
 				21F930AA16F5106B0091C1DB /* InfoPlist.strings in Resources */,
 				21F930B016F5106B0091C1DB /* Credits.rtf in Resources */,
 				21F930B616F5106C0091C1DB /* MainMenu.xib in Resources */,
+				21F930D416F5471D0091C1DB /* Zombie Moan-SoundBible.com-565291980.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
