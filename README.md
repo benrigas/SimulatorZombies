@@ -3,7 +3,7 @@ SimulatorZombies
 
 Mac application to count Xcode zombie processes.
 
-OS X Mountain Lion (10.8) and XCode have a bug that creates a Zombie process every time you build, run, 
+OS X Mountain Lion (10.8) and Xcode have a bug that creates a Zombie process every time you build, run, 
 and exit an iOS application in the iOS Simulator. There is no way to kill these processes, so eventually 
 the system's maximum process limit is hit. The only way to clean this up is to reboot.
 
